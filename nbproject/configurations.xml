@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="84">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <df name="C_Ryan_Repo" root=".">
+      <df name="build">
+        <df name="CMakeFiles">
+          <df name="2.8.10.2">
+            <df name="CompilerIdC">
+              <in>CMakeCCompilerId.c</in>
+            </df>
+            <df name="CompilerIdCXX">
+              <in>CMakeCXXCompilerId.cpp</in>
+            </df>
+          </df>
+          <df name="CMakeTmp">
+          </df>
+          <df name="ryanTest.dir">
+          </df>
+          <df name="swarming.dir">
+          </df>
+        </df>
+      </df>
+      <df name="CMakeFiles">
+        <df name="2.8.10.2">
+          <df name="CompilerIdC">
+            <in>CMakeCCompilerId.c</in>
+          </df>
+          <df name="CompilerIdCXX">
+            <in>CMakeCXXCompilerId.cpp</in>
+          </df>
+        </df>
+        <df name="CMakeTmp">
+        </df>
+        <df name="Progress">
+          <in>2</in>
+          <in>3</in>
+          <in>4</in>
+          <in>count.txt</in>
+        </df>
+        <df name="ryanTest.dir">
+        </df>
+        <df name="swarming.dir">
+        </df>
+      </df>
+      <df name="html">
+        <df name="search">
+        </df>
+      </df>
+      <in>detect_nbrs.c</in>
+      <in>detect_nbrs.h</in>
+      <in>external_facade.c</in>
+      <in>external_facade.h</in>
+      <in>input_management.c</in>
+      <in>input_management.h</in>
+      <in>swarming.c</in>
+      <in>swarming.h</in>
+      <in>test.c</in>
+    </df>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>CMakeLists.txt</itemPath>
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceFolderFilter>^(nbproject)$</sourceFolderFilter>
+  <sourceRootList>
+    <Elem>.</Elem>
+  </sourceRootList>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Default" type="0">
+      <toolsSet>
+        <remote-sources-mode>LOCAL_SOURCES</remote-sources-mode>
+        <compilerSet>CLang|CLang</compilerSet>
+      </toolsSet>
+      <codeAssistance>
+      </codeAssistance>
+      <makefileType>
+        <makeTool>
+          <buildCommandWorkingDir>.</buildCommandWorkingDir>
+          <buildCommand>${MAKE} -f Makefile</buildCommand>
+          <cleanCommand>${MAKE} -f Makefile clean</cleanCommand>
+          <executablePath>ryanTest</executablePath>
+        </makeTool>
+      </makefileType>
+      <item path="CMakeFiles/2.8.10.2/CompilerIdC/CMakeCCompilerId.c"
+            ex="true"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="CMakeFiles/2.8.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp"
+            ex="true"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="build/CMakeFiles/2.8.10.2/CompilerIdC/CMakeCCompilerId.c"
+            ex="true"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="build/CMakeFiles/2.8.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp"
+            ex="true"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="detect_nbrs.c" ex="false" tool="0" flavor2="2">
+        <cTool>
+          <preprocessorList>
+            <Elem>swarming_EXPORTS</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="external_facade.c" ex="false" tool="0" flavor2="2">
+        <cTool>
+          <preprocessorList>
+            <Elem>swarming_EXPORTS</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="input_management.c" ex="false" tool="0" flavor2="2">
+        <cTool>
+          <preprocessorList>
+            <Elem>swarming_EXPORTS</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="swarming.c" ex="false" tool="0" flavor2="2">
+        <cTool>
+          <preprocessorList>
+            <Elem>swarming_EXPORTS</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="test.c" ex="false" tool="0" flavor2="2">
+        <cTool>
+        </cTool>
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
